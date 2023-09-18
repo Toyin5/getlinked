@@ -1,0 +1,32 @@
+
+/* Small screens (up to 767px) */
+@media (max-width: 767px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 45px 30px 45px;
+    position: relative;
+    border-bottom: solid 0.8px rgba(119, 119, 119, 0.423);
+  }
+  .menu {
+    height: fit-content;
+    margin: auto 0 auto;
+  }
+  .logo{
+    font-weight: 800;
+  }
+  .logo span {
+  color: rgba(212, 52, 254, 1);
+  }
+  /* CSS styles for small screens go here */
+}
+
+/* Medium screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS styles for medium screens go here */
+}
+
+/* Large screens (992px and above) */
+@media (min-width: 992px) {
+  /* CSS styles for large screens go here */
+}
