@@ -2,6 +2,7 @@
 import { useState } from "react";
 import styles from "./mobile.module.css";
 import Image from "next/image";
+import RegisterButton from "@/components/register-button/button";
 export default function MobileMenu() {
   const [menuList, setMenuList] = useState(false);
 
@@ -10,7 +11,7 @@ export default function MobileMenu() {
   };
 
   return (
-    <div>
+    <div className={styles.MobileMenu}>
       {menuList ? (
         <div className={styles.menuList}>
           <div className={styles.menuList_links}>
@@ -20,14 +21,14 @@ export default function MobileMenu() {
             <li>FAQs</li>
             <li>Contacts</li>
             <li>
-              <button className={styles.registerButton}>Register</button>
+             <RegisterButton />
             </li>
           </ul>
           </div>
           <div onClick={handleClick}>
             <Image
               src="/closebtn.svg"
-              alt="Close Logo"
+              alt="Close vector"
               width={23}
               height={23}
               priority
@@ -38,7 +39,7 @@ export default function MobileMenu() {
         <div onClick={handleClick}>
           <Image
             src="/openbtn.svg"
-            alt="Open Logo"
+            alt="Open vector"
             width={19}
             height={14}
             priority

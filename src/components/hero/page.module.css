@@ -1,0 +1,244 @@
+/* Small screens (up to 767px) */
+@media (max-width: 767px) {
+  .subHeading {
+    padding: 30px 10px 30px 10px;
+    display: grid;
+    width: 100vw;
+    justify-content: center;
+  }
+  .subHeading__img {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .subHeading__img img {
+    width: 33vw;
+  }
+  .subHeading h2 {
+    font-size: 4.5vw;
+    font-style: italic;
+    font-weight: 600;
+    font-family: var(--font-montserrat);
+  }
+  .hero__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    border-bottom: solid 2px rgba(116, 116, 116, 0.306);
+  }
+  .hero__content__img {
+    position: relative;
+  }
+  .hero__content__img img {
+    width: 100vw;
+  }
+
+  .hero__content__text {
+    display: grid;
+    text-align: center;
+    width: fit-content;
+    margin: 0 10px 0 10px;
+  }
+  .hero__content__text h1 {
+    position: relative;
+    font-size: 9vw;
+    font-weight: 800;
+  }
+  .hero__content__text h1 span {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+  }
+  .hero__content__text h1 span:nth-child(2) {
+    margin: auto 0 auto;
+    color: rgba(212, 52, 254, 1);
+  }
+  .hero__content__text h1 span:first-child {
+    position: relative;
+  }
+  .hero__content__text h1 span:first-child img {
+    position: absolute;
+    left: 1.5vw;
+    top: -0.5vh;
+  }
+  .hero__content__text p {
+    font-size: 3.5vw;
+    margin: 0 10vw 0 10vw;
+  }
+  /* CSS styles for small screens go here */
+}
+
+/* Medium screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .subHeading {
+    padding: 20px 30px 10px 30px;
+
+    display: grid;
+    width: 100vw;
+    justify-content: flex-end;
+  }
+  .subHeading__img {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .subHeading__img img {
+    width: 165px;
+  }
+  .subHeading h2 {
+    font-size: 1.4em;
+    font-style: italic;
+    font-weight: 600;
+    font-family: var(--font-montserrat);
+  }
+  .hero__content {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100vw;
+    border-bottom: solid 2px rgba(116, 116, 116, 0.306);
+  }
+  .hero__content__img {
+    position: relative;
+  }
+  .hero__content__img img {
+    min-width: 35vw;
+    max-height: 68vh;
+  }
+ 
+  .hero__content__text h1 {
+    font-size: 2em;
+    font-weight: 600;
+  }
+   .hero__content__text {
+    margin: 0 auto 0 auto;
+    display: grid;
+    text-align: start;
+    width: 50%;
+  }
+  .hero__content__text h1 {
+    font-size: 2em;
+    font-weight: 600;
+  }
+
+  .hero__content__text h1 {
+    position: relative;
+    font-size: 4vw;
+    font-weight: 800;
+  }
+  .hero__content__text h1 span {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+  }
+  .hero__content__text h1 span:nth-child(2) {
+    margin: auto 0 auto;
+    color: rgba(212, 52, 254, 1);
+  }
+  .hero__content__text h1 span:first-child {
+    position: relative;
+  }
+  .hero__content__text h1 span:first-child img {
+    position: absolute;
+    left: 0.9vw;
+    top: -0.9vh;
+  }
+  .hero__content__text h1 span:nth-child(2) img {
+    width: 4.5vw;
+  }
+  .hero__content__text h1 span:nth-child(3) img {
+    width: 3vw;
+  }
+  .hero__content__text p {
+    font-size: 1vw;
+    width: 23vw;
+  }
+  /* .hero__content__img img:last-child {
+    position: absolute;
+    top: 0;
+    max-height: 58vh;
+  }
+   CSS styles for medium screens go here */
+}
+
+/* Large screens (992px and above) */
+@media (min-width: 992px) {
+  .subHeading {
+    padding: 20px 50px 10px 50px;
+    display: grid;
+    width: 100vw;
+    justify-content: flex-end;
+  }
+  .subHeading__img {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .subHeading__img img {
+    width: 165px;
+    margin: 0 0 14px 0;
+  }
+  .subHeading h2 {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 600;
+    font-family: var(--font-montserrat);
+  }
+  .hero__content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgba(116, 116, 116, 0.306);
+  }
+  .hero__content__img {
+  
+  }
+  .hero__content__img img {
+   width: 35vw;
+  }
+  .hero__content__text {
+   margin: 0 0 0 10vw;
+    display: grid;
+    text-align: start;
+    width: 40%;
+  }
+  .hero__content__text h1 {
+    font-size: 2em;
+    font-weight: 600;
+  }
+
+  .hero__content__text h1 {
+    position: relative;
+    font-size: 4vw;
+    font-weight: 800;
+  }
+  .hero__content__text h1 span {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+  }
+  .hero__content__text h1 span:nth-child(2) {
+    margin: auto 0 auto;
+    color: rgba(212, 52, 254, 1);
+  }
+  .hero__content__text h1 span:first-child {
+    position: relative;
+  }
+  .hero__content__text h1 span:first-child img {
+    position: absolute;
+    left: 0.9vw;
+    top: -1vh;
+      width: 4.5vw;
+  }
+  .hero__content__text h1 span:nth-child(2) img {
+    width: 4.5vw;
+  }
+  .hero__content__text h1 span:nth-child(3) img {
+    width: 3vw;
+  }
+  .hero__content__text p {
+    font-size: 1vw;
+    width: 23vw;
+  }
+  /* CSS styles for large screens go here */
+}
+
+/* Large screens (1440px and above) */
+@media (min-width: 1440px) {
+}

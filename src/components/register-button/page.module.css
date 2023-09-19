@@ -1,0 +1,50 @@
+/* Small screens (up to 767px) */
+@media (max-width: 767px) {
+  .registerButton {
+    margin: 10px 0;
+    min-width: 40vw;
+    padding: 11px 14px 11px 14px;
+    border-radius: 5px;
+    background: linear-gradient(
+      to right,
+      rgba(254, 52, 185, 1),
+      rgba(212, 52, 254, 1),
+      rgba(144, 58, 255, 1)
+    );
+  }
+  /* CSS styles for small screens go here */
+}
+
+/* Medium screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .registerButton {
+    margin: 10px 0;
+    min-width: 16vw;
+    padding: 10px 13.5px 10px 13.5px;
+    border-radius: 5px;
+    background: linear-gradient(
+      to right,
+      rgba(254, 52, 185, 1),
+      rgba(212, 52, 254, 1),
+      rgba(144, 58, 255, 1)
+    );
+  }
+  /* CSS styles for medium screens go here */
+}
+
+/* Large screens (992px and above) */
+@media (min-width: 992px) {
+  .registerButton {
+    margin: 10px 0;
+    min-width: 12.5vw;
+    padding: 10px 0 10px;
+    border-radius: 5px;
+    background: linear-gradient(
+      to right,
+      rgba(254, 52, 185, 1),
+      rgba(212, 52, 254, 1),
+      rgba(144, 58, 255, 1)
+    );
+  }
+  /* CSS styles for large screens go here */
+}

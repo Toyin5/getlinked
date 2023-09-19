@@ -1,6 +1,8 @@
-/* Small screens (up to 767px) */
-@media (max-width: 767px) {
+/* Small screens (up to 768px) */
+@media (max-width: 768px) {
   .menuList {
+    position: relative;
+    z-index: 2;
     display: flex;
     justify-content: space-between;
     width: 100vw;
@@ -8,7 +10,7 @@
     left: 0;
     right: 0;
     top: 0;
-    padding: 30px 45px 30px 45px;
+    padding: 30px 45px 20px 30px;
     height: 100dvh;
     background-color: rgba(21, 14, 40, 1);
   }
@@ -20,23 +22,21 @@
     margin: 14px;
     font-size: 18px;
   }
-  .registerButton {
-    margin: 10px 0;
-    min-width: 40vw;
-    padding: 14px;
-    border-radius: 5px;
-    background: linear-gradient(to right, rgba(254, 52, 185, 1), rgba(212, 52, 254, 1),  rgba(144, 58, 255, 1));
-  }
-
   /* CSS styles for small screens go here */
 }
 
 /* Medium screens (768px to 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
+  .MobileMenu {
+    display: none;
+  }
   /* CSS styles for medium screens go here */
 }
 
 /* Large screens (992px and above) */
 @media (min-width: 992px) {
+  .MobileMenu {
+    display: none;
+  }
   /* CSS styles for large screens go here */
 }
